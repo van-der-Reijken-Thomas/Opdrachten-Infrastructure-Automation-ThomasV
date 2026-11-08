@@ -1,0 +1,72 @@
+# Lokale geheimen en instellingen
+/README.md
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+credentials.*
+secrets.*
+private/
+.aws/
+.ssh/
+*.pem
+*.key
+*.pfx
+*.p12
+*.ppk
+id_rsa*
+id_ed25519*
+.netrc
+_netrc
+*.rdp
+MobaXterm.ini
+
+# Python en ontwikkelomgeving
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.codex/
+
+# Logs, PowerShell-transcripts en configuratieback-ups kunnen geheimen bevatten.
+*.log
+logs/
+backups/
+tftp-root/
+0[1-5]_*.txt
+03[ab]_*.txt
+*Transcript*.txt
+PowerShell_transcript*.txt
+*-running-config.*
+*-startup-config.*
+running-config*
+startup-config*
+
+# Bestanden voor de SD-kaart blijven lokaal.
+network-config
+user-data
+meta-data
+
+# Privaat rapport met toegangsdetails en screenshots; namen in de gebruikerssheet
+# zijn niet bevestigd als fictief. Gebruik het anonieme CSV-voorbeeld op GitHub.
+/Opdracht 4/VanDerReijken_Thomas_PS_Windows_Domein/Rapport_PS_Windows_Domein.docx
+/Opdracht 4/VanDerReijken_Thomas_PS_Windows_Domein/03_Gebruikers/03_Gebruikers.xlsx
+
+# Inleverarchieven en tijdelijke bestanden
+*.zip
+*.7z
+*.bak
+*.tmp
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
