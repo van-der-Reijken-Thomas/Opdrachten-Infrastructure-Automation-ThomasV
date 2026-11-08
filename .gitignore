@@ -1,5 +1,4 @@
 # Lokale geheimen en instellingen
-/README.md
 .env
 .env.*
 !.env.example
